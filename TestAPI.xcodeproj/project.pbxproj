@@ -13,6 +13,8 @@
 		A34C2CB52500A2600069DD74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C2CB32500A2600069DD74 /* Main.storyboard */; };
 		A34C2CB72500A2620069DD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34C2CB62500A2620069DD74 /* Assets.xcassets */; };
 		A34C2CBA2500A2620069DD74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C2CB82500A2620069DD74 /* LaunchScreen.storyboard */; };
+		A34C2CC22500A7AD0069DD74 /* Cep.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C2CC12500A7AD0069DD74 /* Cep.swift */; };
+		A34C2CCA2500AD420069DD74 /* APIViaCep.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C2CC92500AD420069DD74 /* APIViaCep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A34C2CB62500A2620069DD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A34C2CB92500A2620069DD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A34C2CBB2500A2620069DD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C2CC12500A7AD0069DD74 /* Cep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cep.swift; sourceTree = "<group>"; };
+		A34C2CC92500AD420069DD74 /* APIViaCep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViaCep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				A34C2CAD2500A2600069DD74 /* AppDelegate.swift */,
+				A34C2CC92500AD420069DD74 /* APIViaCep.swift */,
 				A34C2CAF2500A2600069DD74 /* SceneDelegate.swift */,
 				A34C2CB12500A2600069DD74 /* ViewController.swift */,
 				A34C2CB32500A2600069DD74 /* Main.storyboard */,
 				A34C2CB62500A2620069DD74 /* Assets.xcassets */,
 				A34C2CB82500A2620069DD74 /* LaunchScreen.storyboard */,
 				A34C2CBB2500A2620069DD74 /* Info.plist */,
+				A34C2CC12500A7AD0069DD74 /* Cep.swift */,
 			);
 			path = TestAPI;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34C2CC22500A7AD0069DD74 /* Cep.swift in Sources */,
+				A34C2CCA2500AD420069DD74 /* APIViaCep.swift in Sources */,
 				A34C2CB22500A2600069DD74 /* ViewController.swift in Sources */,
 				A34C2CAE2500A2600069DD74 /* AppDelegate.swift in Sources */,
 				A34C2CB02500A2600069DD74 /* SceneDelegate.swift in Sources */,
